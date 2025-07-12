@@ -1,0 +1,18 @@
+@import "tailwindcss";
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+.file-tree {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.code-editor {
+  overflow: auto;
+  max-height: 100%;
+}
